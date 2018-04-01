@@ -1,0 +1,12 @@
+# Ruby on Racetracks Agenda for Legacy Rails Projects
+
+The Ruby on Racetracks principles can be added to legacy projects.  Just remember that adaptations may be necessary.
+
+1.  Custom Docker image and Docker repository: Create a custom Docker image (debian-**), Docker build repository (docker-debian-**-build), a Docker image customization repository (docker-debian-**-custom), and a Docker usage script repository (docker-debian-**).
+2.  build_fast.sh script: After you reset the Docker container and git clone the Rails app, running the build_fast.sh script sets up the project and runs the test.  The Docker infrastructure and the build_fast.sh script together allow anyone who joins the project to have it up and running locally in a few minutes instead of hours or days.  If anything strange happens in your local project setup, you can destroy it and be back in business in a few minutes instead of hours or days.  Thus, you'll never have to worry that you broke your local development environment.
+3.  Continuous integration: Go to https://gist.github.com/jhsu802701/bfa9a016d5edcbeca8bd6a7ab78bfbae for more details.  Add continuous integration badges for functions that are not already provided.
+4.  Additional scripts and gems for easy analysis: Go to the Rails Neutrino source code and search for the word "WICHTIG" (German for "important").  This will point you to the features that should be added to legacy Rails apps.
+5.  Adding helper, model, controller, and integration tests to the app: If the current test suite is incomplete, you must provide tests verifying that what has been written so far continues to work as expected.  This is necessary to avoid breaking functions without realizing it and creating the software engineering version of Chernobyl, Fukushima, or the Deepwater Horizon.
+6.  Updating the Ruby version and Ruby gems in the app: This is a task often neglected in Rails projects, but it's important to keep up.  Outdated Ruby gems often get flagged for security vulnerabilities.  Also, very old versions of Ruby and Ruby gems often have support dropped.  It is important to avoid ending up in a similar position as that of a student who waits until the last minute to start that big term paper.
+7.  Fix bugs: Over time, unresolved bugs become harder to fix.
+8.  Add additional functionality and features: Use test-driven development.
