@@ -73,7 +73,7 @@ git push origin master
 * As of 1-26-2018, there are 4 SQL injection warnings.  This will be resolved in Rails 5.2.
 
 ## CodeClimate (GPA and Test Coverage)
-Go to https://gist.github.com/jhsu802701/fd33d8947aa5da057fb183dedfcd56e2 for more details.
+Go to https://github.com/rubyonracetracks/cheat_sheets/blob/master/codeclimate.md for more details.
 
 ## Updating the README.md File
 * When the badges for your new project are ready, add the Markdown code for each integration badge to the README.md file.
