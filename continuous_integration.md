@@ -66,12 +66,11 @@ git push origin master
 * Hakiri checks for security issues.
 * URL: https://hakiri.io/
 * If Hakiri does not recognize one of your GitHub organizations, go the the URL https://hakiri.io/?org_name=NAMEOFORG .
-* If you created your project with Rails Neutrino or GenericApp, there will be three issues flagged as possible security flaws.  You should mark these as false positives.
+* If you created your project with Rails Neutrino or GenericApp, there will be four issues flagged as possible security flaws.  You should mark these as false positives.
   * app/views/admins/index.html.erb is flagged for a dynamic render path.
   * app/views/users/index.html.erb is flagged for a dynamic render path.
   * app/views/admins/show.html.erb is flagged for cross-site scripting.
   * app/views/users/show.html.erb is flagged for cross-site scripting.
-* As of 1-26-2018, there are 4 SQL injection warnings.  This will be resolved in Rails 5.2.
 
 ## CodeClimate (GPA and Test Coverage)
 Go to https://github.com/rubyonracetracks/cheat_sheets/blob/master/codeclimate.md for more details.
