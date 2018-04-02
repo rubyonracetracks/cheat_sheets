@@ -2,7 +2,7 @@
 
 The Ruby on Racetracks principles can be added to legacy projects.  Just remember that adaptations may be necessary.
 
-1.  Custom Docker image and Docker repository: Create a custom Docker image (debian-**), Docker build repository (docker-debian-**-build), a Docker image customization repository (docker-debian-**-custom), and a Docker usage script repository (docker-debian-**).
+1.  Custom Docker image and Docker repository: Create a custom Docker image (debian-abbrev), Docker build repository (docker-debian-abbrev-build), a Docker image customization repository (docker-debian-abbrev-custom), and a Docker usage script repository (docker-debian-abbrev).
 2.  build_fast.sh script: After you reset the Docker container and git clone the Rails app, running the build_fast.sh script sets up the project and runs the test.  The Docker infrastructure and the build_fast.sh script together allow anyone who joins the project to have it up and running locally in a few minutes instead of hours or days.  If anything strange happens in your local project setup, you can destroy it and be back in business in a few minutes instead of hours or days.  Thus, you'll never have to worry that you broke your local development environment.
 3.  Continuous integration: Go to https://github.com/rubyonracetracks/cheat_sheets/blob/master/continuous_integration.md for more details.  Add continuous integration badges for functions that are not already provided.
 4.  Additional scripts and gems for easy analysis: Go to the Rails Neutrino source code and search for the word "WICHTIG" (German for "important").  This will point you to the features that should be added to legacy Rails apps.
