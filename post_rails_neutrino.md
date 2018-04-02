@@ -8,8 +8,8 @@ This document covers the tasks you should do after using Rails Neutrino to start
 * Enter the command "sh build_fast.sh; sh server.sh".  Open your web browser to the appropriate URL to view your app locally.  (NOTE: The build_fast.sh script takes a few minutes to test your app, outline your app, and seed the database.)  
 * Start a second tmux window, and go to your app's root directory.  Use this tmux window for entering commands.
 * Start a Git repository for your new app, and push your new app into that repository.
-* Deploy this app.  Instructions for deploying to Heroku are at https://gist.github.com/jhsu802701/25c0f05036e3e4156fc9f5a8e5da487d .
-* Add continuous integration badges to your README.md page.  Instructions are at https://gist.github.com/jhsu802701/bfa9a016d5edcbeca8bd6a7ab78bfbae .
+* Deploy this app.  Instructions for deploying to Heroku are at https://github.com/rubyonracetracks/cheat_sheets/blob/master/rails_heroku.md .
+* Add continuous integration badges to your README.md page.  Instructions are at https://github.com/rubyonracetracks/cheat_sheets/blob/master/continuous_integration.md .
 * If all goes well, the new app is ready to be used by the [Generic App gem](https://github.com/jhsu802701/generic_app).
 
 ## Updating Generic App
