@@ -65,6 +65,7 @@ git push origin master
 ## Hakiri
 * Hakiri checks for security issues.
 * URL: https://hakiri.io/
+* If Hakiri does not recognize one of your GitHub organizations, go the the URL https://hakiri.io/?org_name=NAMEOFORG .
 * If you created your project with Rails Neutrino or GenericApp, there will be three issues flagged as possible security flaws.  You should mark these as false positives.
   * app/views/admins/index.html.erb is flagged for a dynamic render path.
   * app/views/users/index.html.erb is flagged for a dynamic render path.
