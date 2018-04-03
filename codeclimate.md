@@ -7,6 +7,7 @@ Code Climate has great tools.  Unfortunately, the instructions are incomplete.
 * If you haven't already done so, create an account.
 * Log into your account.
 * Select your project as one to follow.
+* If projects from your GitHub organization are not listed, go to https://docs.codeclimate.com/docs/approve-code-climate-as-a-third-party-application-in-github-1.
 
 ## Badge Location
 Your project's badges are located at https://codeclimate.com/github/your_github_username/your_project_name/badges.
