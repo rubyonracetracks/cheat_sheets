@@ -15,11 +15,11 @@ git commit -m "Initial commit"
 * Start a Git repository for your new app, and push your new app into that repository.
 * Deploy this app.  Instructions for deploying to Heroku are at https://github.com/rubyonracetracks/cheat_sheets/blob/master/rails_heroku.md.
 * Add continuous integration badges to your README.md page.  Instructions are at https://github.com/rubyonracetracks/cheat_sheets/blob/master/continuous_integration.md.
-* Enable the email capability in the production environment.  (Unlike the development and testing environments, the production environment requires custom settings.)  More details are at https://gist.github.com/jhsu802701/7fe586085ee05b172349ab896fed50be .
+* Enable the email capability in the production environment.  (Unlike the development and testing environments, the production environment requires custom settings.)  More details are at https://github.com/rubyonracetracks/cheat_sheets/blob/master/email_production.md .
 * Convert the development environment from this app from SQLite to PostgreSQL.  More instructions are provided below.
 * Set the Ruby version of your app.  More instructions are provided below.
 * Update the README.md file in your app.  More instructions are provided below.
-* Reset your development environment.  More instructions are at https://gist.github.com/jhsu802701/f9a536446648f5335f1d4723fd65665a .
+* Reset your development environment.  More instructions are at https://github.com/rubyonracetracks/cheat_sheets/blob/master/docker_reset.md .
 * Don't forget to maintain your new app over time.  More instructions are provided below.
 
 ## Switching from SQLite to PostgreSQL
