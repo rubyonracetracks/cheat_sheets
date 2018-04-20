@@ -13,6 +13,6 @@ When you use the GenericApp gem, the email functions work in the development and
   * [MailJet](https://www.mailjet.com/): free 1-month trial of up to 6000 emails (up to 200 per day)
   
 ## Procedures
-* [Heroku/SendGrid](https://gist.github.com/jhsu802701/a7ac8d4ccdc5d993a61a9de293f104df)
-* [Heroku/Mailgun](https://gist.github.com/jhsu802701/e19a6250348217ea9e4bb4120b5fe8dd)
-* [Heroku/SparkPost](https://gist.github.com/jhsu802701/c6c51d1e3d41fff7eefe9115e292362e)
+* [Heroku/SendGrid](https://github.com/rubyonracetracks/cheat_sheets/blob/master/heroku_email/heroku_sendgrid.md)
+* [Heroku/Mailgun](https://github.com/rubyonracetracks/cheat_sheets/blob/master/heroku_email/heroku_mailgun.md)
+* [Heroku/SparkPost](https://github.com/rubyonracetracks/cheat_sheets/blob/master/heroku_email/heroku_sparkpost.md)
