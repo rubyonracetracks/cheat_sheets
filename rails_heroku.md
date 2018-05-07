@@ -21,10 +21,12 @@ heroku rename $HEROKU_TMP # Renames the Heroku app
 * In your browser, visit your new URL. You will again see the initial Heroku splash screen.
 * To see which Heroku project you are currently configured to push to, enter the command "git remote -v".
 * Deploy your app by entering the command "sh heroku.sh".
-* In your web browser, refresh the tab with your app's Heroku URL.  Now your app has replaced the Heroku splash screen.
+* Your app may fail because the Devise secret key was not added.  If this is the case, uncomment the line containing "config.secret_key" in the config/initializers/devise.rb file, and replace the original secret key with the one that Heroku asked you to add.  NOTE: This key has NO spaces or newlines in it.
 * Enter the following commands:
 ```
 git add .
 git commit -m "Configured for Heroku"
 git push origin master
+sh heroku.sh
 ```
+* In your web browser, refresh the tab with your app's Heroku URL.  Now your app has replaced the Heroku splash screen.
