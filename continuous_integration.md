@@ -118,6 +118,7 @@ git add .
 git commit -m "Resolved the Cross-Site Request Forgery"
 git push origin master
 ```
+* Now all security issues raised by Hakiri should be resolved.
 
 ## CodeClimate (GPA and Test Coverage)
 Go to https://github.com/rubyonracetracks/cheat_sheets/blob/master/codeclimate.md for more details.
