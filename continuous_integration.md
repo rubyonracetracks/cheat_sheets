@@ -45,6 +45,13 @@ git push origin master
 ```
 * Go back to the Travis CI site.  Travis CI will test your app.  This will take a few minutes.  Subsequent Travis builds will be faster, because you have configured Travis to cache the gems installed with the "bundle install" command.
 * If all goes well, all tests will pass.
+* Add the Markdown code for the Travis status badge to the README.md file just after the top heading "Generic App Template".
+* To add the Travis CI badge to the source code, enter the following commands:
+```
+git add .
+git commit -m "Added the Travis CI badge"
+git push origin master
+```
 
 ## Semaphore CI
 * I prefer Semaphore CI for testing Ruby gems, because it's simple to configure and does not require changing the source code, not even if you need to test your gem in a newer version of Ruby.
