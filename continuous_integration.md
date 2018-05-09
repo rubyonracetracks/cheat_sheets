@@ -106,7 +106,7 @@ git add .
 git commit -m "Added the Hakiri badge"
 git push origin master
 ```
-* The Gemnasium badge should now appear on the README.md page of the source code.
+* The Gemnasium badge should now appear on the README.md page of the source code.  There is still one critical security warning that has not been addressed yet.
 * The one remaining issue is that the Cross-Site Request Forgery in app/controllers/application_controller.rb.  To correct it, edit the file app/controllers/application_controller.rb and add the following line just after the line "class ApplicationController < ActionController::Base":
 ```
   protect_from_forgery with: :exception
