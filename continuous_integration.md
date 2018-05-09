@@ -122,12 +122,3 @@ git push origin master
 
 ## CodeClimate (GPA and Test Coverage)
 Go to https://github.com/rubyonracetracks/cheat_sheets/blob/master/codeclimate.md for more details.
-
-## Updating the README.md File
-* When the badges for your new project are ready, add the Markdown code for each integration badge to the README.md file.
-* Enter the following commands:
-```
-git add .
-git commit -m "Added continuous integration badges"
-git push origin master
-```
