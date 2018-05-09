@@ -13,9 +13,16 @@ Code Climate has great tools.  Unfortunately, the instructions are incomplete.
 Your project's badges are located at https://codeclimate.com/github/your_github_username/your_project_name/badges.
 
 ## GPA Rating
-Getting the GPA Rating is a relatively straightforward process, and additional instructions are not necessary.
+* Get the Markdown code for your project's GPA badge.  Add this code to the README.md file.
+* Enter the following commands:
+```
+git add .
+git commit -m "Added the Code Climate GPA badge"
+git push origin master
+```
+* The Code Climate GPA badge should now appear in the README.md file of your source code.
 
-## Test Coverage Percentage
+## Test Coverage Percentage (For Ruby Gems)
 * I recommend measuring and posting test coverage percentage for Ruby gems but NOT for Rails apps.  (In Rails apps, I found that SimpleCov failed to evaluate certain parts of the source code or showed tested code to be untested.)
 * There are several elements that you MUST have in place:
   * Your app must be tested by a continuous integration service like Travis, CircleCI, etc.
@@ -36,3 +43,11 @@ bundle exec codeclimate-test-reporter
 ```
   * Get your project's CODECLIMATE_REPO_TOKEN.  Go to your project's CodeClimate page, click on "Settings", and then click on "Test Coverage".  Get the Test Reporter ID, which you will use as the value of the environment variable CODECLIMATE_REPO_TOKEN.
   * Go to your project in Travis CI, CircleCI, Semaphore CI, etc., and add the environment variable CODECLIMATE_REPO_TOKEN set to the appropriate value.
+* Add the Code Climate test coverage badge to the README.md file in your project.
+* Enter the following commands:
+```
+git add .
+git commit -m "Added the Code Climate test coverage badge"
+git push origin master
+```
+* The Code Climate GPA badge should now appear in the README.md file of your source code.
